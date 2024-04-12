@@ -8,7 +8,7 @@
     --azul-navy: #1F314F;
     --gris: #7D889E;
     --blanco: #FFFFFF;
-    --negro: #000000;
+    --sombra: rgba(0, 0, 0, 0.0477);
 }
 
 body {
@@ -21,17 +21,32 @@ body {
 
 .card {
     background-color: var(--blanco);
-    width: 320px;
-    height: 497px;
+    width: 288px;
+    height: 465px;
     border-radius: 20px;
     padding: 16px;
-    font-family: ;
-    box-shadow: 0 25px 25px 0 var(--gris) ;
+    font-family: "Outfit", sans-serif;
+    font-optical-sizing: auto;
+    box-shadow: 0 25px 25px 0 var(--sombra);
 }
 
 #qr_code_image {
     width: 288px;
     border-radius: 10px;
-    margin-bottom: 24px;
+    margin-bottom: 20px;
 }
 
+.content h1 {
+    font-size: 22px;
+    font-weight: 700;
+    color: var(--azul-navy);
+    margin-bottom: 16px;
+    text-align: center;
+}
+
+.content p {
+    font-size: 15px;
+    font-weight: 300;
+    color: var(--gris);
+    text-align: center;
+}
