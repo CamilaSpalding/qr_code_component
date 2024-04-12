@@ -1,6 +1,7 @@
 *{
     margin: 0;
     padding: 0;
+    /* revisar porque el box-sizing descuajeringa la tarjeta */
 }
 
 :root {
