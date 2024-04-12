@@ -5,6 +5,8 @@
 - Hacer responsive la web
 - Colocar el favicon en la web
 
+- Subir el proyecto a Netlify
+
 
 ## DUDAS
 
