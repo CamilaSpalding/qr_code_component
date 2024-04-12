@@ -11,7 +11,7 @@
 ## DUDAS
 
 - Box-sizing: porque se descuajeringa la tarjeta si lo activo?
-- 
+- ¿Usar :root y crear variables es considerado una buena práctica?
 
 
 
